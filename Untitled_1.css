@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px 0;
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .card button {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    .card button:hover {
+      background-color: #e65c00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Batates</header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200?text=Men+T-shirt" alt="Men T-shirt">
+      <h3>Men</h3>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200?text=Women+T-shirt" alt="Women T-shirt">
+      <h3>Women</h3>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200?text=Children+T-shirt" alt="Children T-shirt">
+      <h3>Children</h3>
+      <button>Order Now</button>
+    </div>
+  </div>
+
+</body>
+</html>
